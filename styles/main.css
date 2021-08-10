@@ -1,0 +1,174 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 1;
+    display: flex;
+    text-align: center;  
+    cursor: pointer;
+    width: 99%;
+    height: 60px;
+}
+
+.left-nav{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+}
+
+.left-nav a,.right-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color:inherit;
+}
+
+.right-nav{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-nav a:hover, .left-nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    text-align: center;
+    margin-top: 16em;
+}
+
+.search{
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    width: 580px;
+    height: 44px;  
+    margin: 0 auto;
+}
+
+.search:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-icon{
+    position: relative;
+    left: 0;
+    bottom: -0.7em; 
+    opacity: 0.4;
+}
+
+.search-input{
+    height: 30px;
+    width: 500px;
+    border-style: hidden;
+}
+
+.search-input:focus{
+outline: #dcdcdc;
+}
+
+.mic-button{
+    position: relative;
+    right: 0;
+    bottom: -0.55em;
+}
+
+.span-container{
+    
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.span-child{
+    margin: 14px 8px;
+    padding: 12px 15px; 
+    background-color: #f5f5f5;
+    color: #222;                   
+    border: none;
+    cursor: pointer;
+}
+
+.span-child:hover{
+    border: 1px solid #c8c8c8;
+    color: #222;
+}
+
+.span-child:focus{
+    border:1px solid #4285f4;
+    outline: none;
+}
+
+h2{
+    font-size: small;
+    font-weight: lighter;
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:visited {
+    text-decoration: none;
+    color:lblue;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display:flex;
+    align-items: center; 
+    width: 100%; 
+    height: 50px;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.footer-left{
+    margin: 10px 10px 10px 28px;
+}
+
+.footer-left a, .footer-right a{
+    text-decoration: none;
+    padding: 10px;
+    color:#707070;
+}
+
+.footer-left a:hover, .footer-right a:hover{
+    text-decoration: underline;
+}
+
+.footer-right{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 28px;
+}
+
+.green-div{
+    margin-left: 275px;
+}
+
+.green-div a{
+    text-decoration: none;
+    color:#707070   
+}
+
+.green-div a:hover{
+    text-decoration: underline;   
+}
+
+.green-img{
+    margin: 0 1px 2px;
+    vertical-align: bottom;
+}
